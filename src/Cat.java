@@ -1,12 +1,12 @@
 import javax.swing.text.AbstractDocument.LeafElement;
 
 public class Cat {
-	public String name;
-	public int age;
-	public double weight;
-	public double length;
-	public double power;
-	public String color;
+	private String name;
+	private int age;
+	private double weight;
+	private double length;
+	private double power;
+	private String color;
 	
 	
 	public Cat(String name, int age, double weight,double length, String color) {
